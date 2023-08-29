@@ -16,25 +16,25 @@ Imagine a game where you are managing a plant's health.The plant can be either i
 {W,S,H} -> {0,1,2}
 
 where,
-W -> Wilted state
-S -> Stationary(idle)
-H -> Healthy
+- W -> Wilted state
+- S -> Stationary(idle)
+- H -> Healthy
 ### Sample State:
-H -> 2
+H -> 2<br>
 The plant is healthy.
 
 ### Action Space:
 {W,D} -> {0,1}
  where,
- W -> Water the plant
- D -> Do nothing
+ - W -> Water the plant
+ - D -> Do nothing
 
 ### Sample Action:
-W -> 0
+W -> 0<br>
 The plant is watered
 
 ### Reward Function:
-R = { +1,when water is poured,
+R = { +1,when water is poured,<br>
        0,otherwise}
 
 ### Graphical Representation:
